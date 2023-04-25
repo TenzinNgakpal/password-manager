@@ -1,0 +1,43 @@
+.contacts {
+    padding: 1rem;
+    display: block;
+    background-color:burlywood;
+    margin: 1%;
+    height: 99%;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+    padding-bottom: 10rem;
+}
+
+.contact-types {
+    background-color: goldenrod;
+    padding: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+}
+
+.contact-fields {
+    font-weight: bold;
+    justify-content: center;
+    display: inline;
+}
+
+.hidden-fields {
+    justify-content: center;
+    display: inline;
+    color:goldenrod;
+}
+
+.hidden-fields:hover {
+    color:black;
+}
+
+.hidden-fields a {
+    color: goldenrod;
+    text-decoration: none;
+
+}
+.hidden-fields a:hover {
+    color:black;
+}
