@@ -13,7 +13,7 @@ function Search() {
     }
     return(
         <div className="SearchBox" title="Search will take you to searched Google Search">
-            <input type="text" className="query" onChange={inputTextHandler} value={inputText} placeholder="Search for Site" />
+            <input type="text" className="query" onChange={inputTextHandler} value={inputText} placeholder="Search for Site using Google" />
             <button onClick={SearchHandler} className="searchButton">
                 Search
             </button>

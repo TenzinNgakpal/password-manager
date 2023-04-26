@@ -8,9 +8,9 @@ class Navbar extends React.Component {
             <nav className="nav">
                 <Link to="/" className="site-title">Password Manager</Link>
                 <ul>
-                    <Link className="nav-links" to="/password-manager"> <li> Password Manager </li> </Link>
                     <Link className="nav-links" to="/about"> <li> About </li> </Link>
-                    <Link className="nav-links" to="/contact-us"> <li> Contact Us </li> </Link>
+                    <Link className="nav-links" to="/password-input"> <li> Password Input </li> </Link>
+                    <Link className="nav-links" to="/password-manager"> <li> Password Manager </li> </Link>
                 </ul>
                 
             </nav>

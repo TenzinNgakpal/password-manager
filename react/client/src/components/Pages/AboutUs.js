@@ -6,7 +6,7 @@ class AboutUs extends React.Component {
         return (
             <div className="about">
                 <h1>About</h1><p />
-                <div className="about-types" >This is a project that is also a culmination of the things that were learned during Technical Inputs.</div>
+                <div className="about-types" >This is a Password Manager that allows you to manage your passwords. It stores the passwords in encrypted format.</div>
             </div>
         );
     }

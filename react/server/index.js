@@ -8,13 +8,13 @@ const {encrypt, decrypt} = require("./EncryptionHandler");
 
 app.use(cors());
 app.use(express.json());
-
 const db = mysql.createConnection({
-    user: 'root',
-    host: 'localhost',
-    password: 'Virgo1109@',
-    database: 'passwordmanager',
-});
+        user: 'root',
+        host: 'localhost',
+        password: 'Virgo1109@',
+        database: 'passwordmanager',
+}
+)
 
 app.post("/addentry", (req, res) => {
     const {title, username, password} = req.body;
@@ -42,6 +42,7 @@ app.get('/showpasswords',(req, res) => {
 })
 
 app.post('/decryptpassword', (req, res) => {
+    
     res.send(decrypt(req.body));
 })
 
