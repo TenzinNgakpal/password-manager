@@ -1,7 +1,7 @@
 .about {
     padding: 1rem;
     display: block;
-    background-color:burlywood;
+    background-color:darkgray;
     margin: 1%;
     height: 99%;
     font-family: 'Times New Roman', Times, serif;
@@ -10,7 +10,7 @@
 }
 
 .about-types {
-    background-color: goldenrod;
+    background-color: gray;
     padding: 1rem;
     margin-left: 30%;
     margin-right: 30%;

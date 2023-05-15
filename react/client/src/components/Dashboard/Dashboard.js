@@ -16,8 +16,8 @@ class Dashboard extends Component {
                     <Search />
                     <div>
                     <Routes>
-                    <Route path="/" exact element={<Input />}/>
-                    <Route path="/home" element= { <Input />} />
+                    <Route path="/" exact element={<About />}/>
+                    <Route path="/home" element= { <About />} />
                     <Route path="/about" element= {<About />} />
                     <Route path="/password-input/*" element= {<Input />} />
                     <Route path="/password-manager" element= {<PasswordList />} />
